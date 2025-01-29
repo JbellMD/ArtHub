@@ -17,13 +17,21 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../CartSlice';
 import { motion } from 'framer-motion';
 
+// Import images
+import abstractHarmony from '../assets/abstract-harmony.jpg';
+import urbanLandscape from '../assets/urban-landscape.jpg';
+import serenityBlue from '../assets/serenity-blue.jpg';
+import naturesDance from '../assets/natures-dance.jpg';
+import digitalDreams from '../assets/digital-dreams.jpg';
+import geometricVision from '../assets/geometric-vision.jpg';
+
 const artworks = [
   {
     id: 1,
     title: "Abstract Harmony",
     artist: "Elena Martinez",
     price: 599.99,
-    image: "/images/abstract-harmony.jpg",
+    image: abstractHarmony,
     category: "Abstract",
     description: "A vibrant exploration of color and form in acrylic on canvas."
   },
@@ -32,7 +40,7 @@ const artworks = [
     title: "Urban Landscape",
     artist: "Michael Chen",
     price: 799.99,
-    image: "/images/urban-landscape.jpg",
+    image: urbanLandscape,
     category: "Contemporary",
     description: "A modern interpretation of city life in oil on canvas."
   },
@@ -41,7 +49,7 @@ const artworks = [
     title: "Serenity in Blue",
     artist: "Sarah Johnson",
     price: 449.99,
-    image: "/images/serenity-blue.jpg",
+    image: serenityBlue,
     category: "Abstract",
     description: "A calming composition in shades of blue, mixed media on canvas."
   },
@@ -50,7 +58,7 @@ const artworks = [
     title: "Nature's Dance",
     artist: "David Wilson",
     price: 899.99,
-    image: "/images/natures-dance.jpg",
+    image: naturesDance,
     category: "Impressionist",
     description: "A dynamic representation of natural forms in oil on canvas."
   },
@@ -59,7 +67,7 @@ const artworks = [
     title: "Digital Dreams",
     artist: "Alex Rivera",
     price: 349.99,
-    image: "/images/digital-dreams.jpg",
+    image: digitalDreams,
     category: "Digital",
     description: "A contemporary digital artwork exploring the intersection of technology and art."
   },
@@ -68,7 +76,7 @@ const artworks = [
     title: "Geometric Vision",
     artist: "Lisa Park",
     price: 649.99,
-    image: "/images/geometric-vision.jpg",
+    image: geometricVision,
     category: "Contemporary",
     description: "A bold geometric composition in acrylic on canvas."
   }
