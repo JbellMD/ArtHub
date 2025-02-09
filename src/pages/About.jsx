@@ -40,13 +40,13 @@ const features = [
 const team = [
   {
     name: 'Sarah Chen',
-    role: 'Lead Curator',
+    role: 'Lead Curator - Art',
     image: '/images/curator1.jpg',
     bio: 'With over 15 years of experience in the art world, Sarah brings her expertise in contemporary and modern art.',
   },
   {
     name: 'Marcus Rodriguez',
-    role: 'Art Director',
+    role: 'Art Director - Museums',
     image: '/images/curator2.jpg',
     bio: 'Marcus has curated exhibitions for major galleries worldwide and specializes in emerging artists.',
   },
