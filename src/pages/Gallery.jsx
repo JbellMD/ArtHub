@@ -24,6 +24,7 @@ import serenityBlue from '../assets/serenity-blue.jpg';
 import naturesDance from '../assets/natures-dance.jpg';
 import digitalDreams from '../assets/digital-dreams.jpg';
 import geometricVision from '../assets/geometric-vision.jpg';
+import naturesdance2 from '../assets/natures-dance2.jpg';
 
 const artworks = [
   {
@@ -77,6 +78,15 @@ const artworks = [
     artist: "Lisa Park",
     price: 649.99,
     image: geometricVision,
+    category: "Contemporary",
+    description: "A bold geometric composition in acrylic on canvas. Created by an amazing established artist."
+  },
+  {
+    id: 7,
+    title: "Nature's Tango",
+    artist: "Lisa Park",
+    price: 649.99,
+    image: naturesdance2,
     category: "Contemporary",
     description: "A bold geometric composition in acrylic on canvas. Created by an amazing established artist."
   }
