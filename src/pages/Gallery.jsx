@@ -60,7 +60,7 @@ const artworks = [
     price: 899.99,
     image: naturesDance,
     category: "Impressionist",
-    description: "A dynamic representation of natural forms in oil on canvas."
+    description: "A dynamic representation of natural forms in oil on canvas. Created by an amazing established artist."
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const artworks = [
     price: 349.99,
     image: digitalDreams,
     category: "Digital",
-    description: "A contemporary digital artwork exploring the intersection of technology and art."
+    description: "A contemporary digital artwork exploring the intersection of technology and art.Created by an amazing upcoming artist."
   },
   {
     id: 6,
@@ -78,7 +78,7 @@ const artworks = [
     price: 649.99,
     image: geometricVision,
     category: "Contemporary",
-    description: "A bold geometric composition in acrylic on canvas."
+    description: "A bold geometric composition in acrylic on canvas. Created by an amazing established artist."
   }
 ];
 
