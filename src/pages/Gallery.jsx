@@ -19,6 +19,7 @@ import { motion } from 'framer-motion';
 
 // Import images
 import abstractHarmony from '../assets/abstract-harmony.jpg';
+import abstractHarmony2 from '../assets/abstract-harmony2.jpg';
 import urbanLandscape from '../assets/urban-landscape.jpg';
 import serenityBlue from '../assets/serenity-blue.jpg';
 import naturesDance from '../assets/natures-dance.jpg';
@@ -89,7 +90,16 @@ const artworks = [
     image: naturesdance2,
     category: "Contemporary",
     description: "A bold geometric composition in acrylic on canvas. Created by an amazing established artist."
-  }
+  },
+  {
+    id: 8,
+    title: "Abstract Harmony",
+    artist: "Elena Martinez",
+    price: 599.99,
+    image: abstractHarmony2,
+    category: "Abstract",
+    description: "A vibrant exploration of color and form in acrylic on canvas. Created by an amazing upcoming artist."
+  },
 ];
 
 const categories = ["All", "Abstract", "Contemporary", "Impressionist", "Digital"];
