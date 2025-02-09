@@ -33,7 +33,7 @@ const artworks = [
     price: 599.99,
     image: abstractHarmony,
     category: "Abstract",
-    description: "A vibrant exploration of color and form in acrylic on canvas."
+    description: "A vibrant exploration of color and form in acrylic on canvas. Created by an amazing upcoming artist."
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const artworks = [
     price: 799.99,
     image: urbanLandscape,
     category: "Contemporary",
-    description: "A modern interpretation of city life in oil on canvas."
+    description: "A modern interpretation of city life in oil on canvas. Created by an amazing established artist."
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const artworks = [
     price: 449.99,
     image: serenityBlue,
     category: "Abstract",
-    description: "A calming composition in shades of blue, mixed media on canvas."
+    description: "A calming composition in shades of blue, mixed media on canvas. Created by an amazing upcoming artist."
   },
   {
     id: 4,
